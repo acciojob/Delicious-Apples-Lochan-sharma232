@@ -77,8 +77,45 @@ main{
 	display:flex;
 		gap:1%;
 }
-.photo{
-	background-color:green;
+.photo-container{
 	height:100%;
 	width:100%;
-	}
+}
+.photo-main{
+height:70%;
+	background-color:green;
+	position:relative;
+}
+.controls{
+	display:flex;
+	justify-content: space-between;
+	color:white;
+}
+.photo-album>ul{
+	display:flex;
+	justify-content: space-around;
+	list-style:none;
+	height:30%;
+	width:30%;
+}
+.title{
+	font-size:25px;
+}
+.price{
+	font-size: 30px;
+	font-weight:bold;
+	color: red;
+}
+.variant{
+	display:flex;
+	flex-direction:column;
+}
+.add-to-cart{
+	background-color:red;
+	color:white;
+	padding: 10px 10px;
+	border: none;
+border-radius:5px;
+	cursor:pointer;
+margin-top:10px;
+}
